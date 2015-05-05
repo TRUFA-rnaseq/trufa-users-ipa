@@ -1,0 +1,24 @@
+#+STARTUP: showall
+
+TRUFA (Transcriptomes User-Friendly Analysis) is a free webserver designed to
+help you perform RNA-seq analysis.
+
+Joint work done by:
+
+ - Advanced Computing & e-Science Research Line at Instituto de Física de
+   Cantabria (IFCA)
+ - Museo Nacional de Ciencias Naturales
+
+This package contains the server side module to allow basic user
+authentification using a IPA service.
+
+* Fast Install
+
+  *PREREQUISITES*: You need to have installed Python.
+
+  Copy this repository in the same host server that the TRUFA web. Edit the
+  /config.py/ file from the TRUFA web (setting the variable ~USERS_LIB~) to
+  point at this repository.
+
+* Acknowledgments
+  - Sqlite https://sqlite.org/
